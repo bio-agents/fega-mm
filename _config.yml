@@ -1,0 +1,18 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+title: "FEGA Maturity Model" # the name of your site, e.g. ACME Corp.
+
+# source: source
+
+collections_dir: all_collections
+collections:
+  domains:
+    output: true
+  subdomains:
+    output: true
+  level-definitions:
+    output: true
+  domains-v1:
+    output: true
+  subdomains-v1:
+    output: true
